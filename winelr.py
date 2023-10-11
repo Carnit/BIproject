@@ -40,17 +40,17 @@ plt.title("Actual vs. Predicted Wine Quality")
 plt.show()
 
 new_data = pd.DataFrame({
-    'alcohol': [12.5],
-    'fixed acidity': [7.2],
-    'volatile acidity': [0.32],
-    'citric acid': [0.36],
-    'residual sugar': [6.2],
-    'chlorides': [0.05],
-    'free sulfur dioxide': [15],
-    'total sulfur dioxide': [85],
-    'density': [0.997],
-    'pH': [3.3],
-    'sulphates': [0.6]
+    'alcohol': [16.7],
+    'fixed acidity': [7.4],
+    'volatile acidity': [0.27],
+    'citric acid': [0.38],
+    'residual sugar': [7.8],
+    'chlorides': [0.07],
+    'free sulfur dioxide': [17],
+    'total sulfur dioxide': [87],
+    'density': [0.999],
+    'pH': [3.7],
+    'sulphates': [0.8]
 })
 
 new_prediction = model.predict(new_data)
