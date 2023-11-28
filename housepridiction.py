@@ -24,7 +24,7 @@ print(f"Mean Squared Error: {mse:.2f}")
 print(f"Mean Absolute Error: {mae:.2f}")
 print(f"Root Mean Squared Error: {rmse:.2f}")
 
-plt.plot(y_test, y_pred)
+plt.scatter(y_test, y_pred)
 plt.xlabel("Actual Prices")
 plt.ylabel("Predicted Prices")
 plt.title("Actual Prices vs. Predicted Prices")
