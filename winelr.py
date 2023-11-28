@@ -19,9 +19,7 @@ model = LinearRegression()
 
 model.fit(X_ftrain, y_ftrain)
 
-
 y_pred = model.predict(X_test.fillna(0))
-
 
 mse = mean_squared_error(y_test.fillna(0), y_pred)
 rmse = np.sqrt(mse)
